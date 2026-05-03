@@ -13,11 +13,11 @@
 
 | Jour | Tickets jour | % Pass | Présence pass | Total présence | Marge Buvette | Marge Restauration | Billetterie | **Total** |
 |------|-------------|--------|---------------|----------------|---------------|-------------------|-------------|-----------|
-| PASS | - | - | - | - | - | - | 11 400 € | **11 400 €** |
-| Vendredi | 150 | 20% | 120 | 270 | 4 238 € | 2 398 € | 1 125 € | **7 761 €** |
-| Samedi | 300 | 80% | 480 | 780 | 12 244 € | 6 926 € | 3 450 € | **22 620 €** |
-| Dimanche | 150 | 20% | 120 | 270 | 4 238 € | 2 398 € | 1 725 € | **8 361 €** |
-| **TOTAL** | **600** | - | - | **1 320** | **20 720 €** | **11 722 €** | **17 700 €** | **50 142 €** |
+| PASS | - | - | - | - | - | - | 14 400 € | **14 400 €** |
+| Vendredi | 150 | 20% | 120 | 270 | 4 238 € | 2 398 € | 1 500 € | **8 136 €** |
+| Samedi | 300 | 80% | 480 | 780 | 12 244 € | 6 926 € | 4 500 € | **23 670 €** |
+| Dimanche | 150 | 20% | 120 | 270 | 4 238 € | 2 398 € | 2 250 € | **8 886 €** |
+| **TOTAL** | **600** | - | - | **1 320** | **20 720 €** | **11 722 €** | **22 650 €** | **55 092 €** |
 
 ---
 
@@ -25,23 +25,18 @@
 
 ### Tarifs
 
-| Code | Type | Nom | Tarif | Nombre | Recettes | -20% | +20% |
-|------|------|-----|-------|--------|----------|------|------|
-| PASS 3 JOURS | FIRST | Early bird (jusqu'au 30 juin) | 15 € | 120 | 1 800 € | 1 440 € | 2 160 € |
-| PASS 3 JOURS | PLEIN | Pass 3 jours | 25 € | 240 | 6 000 € | 4 800 € | 7 200 € |
-| PASS 3 JOURS | REDUIT | Pass 3 jours réduit | 15 € | 240 | 3 600 € | 2 880 € | 4 320 € |
-| VENDREDI | PLEIN | Vendredi | 10 € | 75 | 750 € | 600 € | 900 € |
-| VENDREDI | REDUIT | Vendredi réduit/avant 17h | 5 € | 75 | 375 € | 300 € | 450 € |
-| SAMEDI | PLEIN | Samedi | 15 € | 150 | 2 250 € | 1 800 € | 2 700 € |
-| SAMEDI | REDUIT | Samedi réduit | 8 € | 150 | 1 200 € | 960 € | 1 440 € |
-| DIMANCHE | PLEIN | Dimanche | 15 € | 75 | 1 125 € | 900 € | 1 350 € |
-| DIMANCHE | REDUIT | Dimanche réduit | 8 € | 75 | 600 € | 480 € | 720 € |
-| **TOTAL** | - | - | - | **1 200** | **17 700 €** | **14 160 €** | **21 240 €** |
+| Type | Tarif | Nombre | Recettes | -20% | +20% |
+|------|-------|--------|----------|------|------|
+| Early bird pass 3 jours (jusqu'au 30 juin) | 20 € | 120 | 2 400 € | 1 920 € | 2 880 € |
+| Pass 3 jours | 25 € | 480 | 12 000 € | 9 600 € | 14 400 € |
+| Vendredi | 10 € | 150 | 1 500 € | 1 200 € | 1 800 € |
+| Samedi | 15 € | 300 | 4 500 € | 3 600 € | 5 400 € |
+| Dimanche | 15 € | 150 | 2 250 € | 1 800 € | 2 700 € |
+| **TOTAL** | - | **1 200** | **22 650 €** | **18 120 €** | **27 180 €** |
 
 ### Règles de simulation
 - Pass 3 jours : 50% des entrées
-- Tarif réduit : 50% des entrées
-- Early bird : 10% des pass
+- Early bird : 20% des pass
 - Vendredi = Dimanche
 - Samedi = Vendredi × 2
 
@@ -93,32 +88,36 @@
 
 | Catégorie | Estimation basse (-20%) | Estimation | Estimation haute (+20%) | Part |
 |-----------|-------------------------|------------|-------------------------|------|
-| Billetterie | 14 160 € | 17 700 € | 21 240 € | 32,1% |
-| Ateliers | 4 000 € | 5 000 € | 6 000 € | 9,1% |
-| Restauration | 9 377 € | 11 722 € | 14 066 € | 21,3% |
-| Buvettes | 16 576 € | 20 720 € | 21 240 € | 37,6% |
-| **TOTAL RECETTES** | **44 113 €** | **55 142 €** | **62 546 €** | **100%** |
+| Billetterie | 18 120 € | 22 650 € | 27 180 € | 37,7% |
+| Ateliers | 2 712 € | 3 390 € | 4 068 € | 5,6% |
+| Restauration | 9 377 € | 11 722 € | 14 066 € | 19,5% |
+| Buvettes | 16 576 € | 20 720 € | 21 240 € | 34,5% |
+| **TOTAL RECETTES** | **46 785 €** | **58 482 €** | **66 554 €** | **100%** |
 
 ### Coûts
 
 | Catégorie | Estimation basse | Estimation | Estimation haute | Part |
 |-----------|------------------|------------|------------------|------|
-| SACEM Billetterie (8,8%) | -1 246 € | -1 558 € | -1 869 € | 2,8% |
-| Artistes (indemnités + déplacements) | -20 000 € | -20 000 € | -20 000 € | 36,3% |
-| SACEM Restauration/Buvettes (4,4%) | -1 142 € | -1 427 € | -1 553 € | 2,6% |
-| Coût Restauration (25%) | -2 344 € | -2 930 € | -3 516 € | 5,3% |
-| Coût Buvette (21%) | -3 552 € | -4 440 € | -4 551 € | 8,1% |
-| Frais logistiques | -15 000 € | -15 000 € | -15 000 € | 27,2% |
-| Frais divers | -3 000 € | -3 000 € | -3 000 € | 5,4% |
-| **TOTAL COÛTS** | **-46 284 €** | **-48 355 €** | **-49 490 €** | **87,7%** |
+| Artistes — cachets + répétitions | -15 700 € | -15 700 € | -15 700 € | 31,9% |
+| Artistes — défraiement (75% de 200 €) | -4 800 € | -4 800 € | -4 800 € | 9,8% |
+| SACEM Billetterie (8,8%) | -1 595 € | -1 993 € | -2 392 € | 4,1% |
+| SACEM Restauration/Buvettes (4,4%) | -1 142 € | -1 427 € | -1 553 € | 2,9% |
+| Coût Restauration (25% + resto artistes) | -2 899 € | -3 485 € | -4 071 € | 7,1% |
+| Coût Buvette (21%) | -3 552 € | -4 440 € | -4 551 € | 9,0% |
+| Frais logistiques | -15 000 € | -15 000 € | -15 000 € | 30,5% |
+| Frais divers | -3 000 € | -3 000 € | -3 000 € | 6,1% |
+| **TOTAL COÛTS** | **-47 688 €** | **-49 845 €** | **-51 067 €** | **100%** |
+
+*Détail artistes : 58 cachets x 250 € + 12 répétitions x 100 € + 32 défraiements x 150 € = 20 500 €*
+*Restauration artistes (555 €) intégrée dans Coût Restauration*
 
 ### Marge
 
 | Scénario | Marge |
 |----------|-------|
-| **Estimation basse (-20%)** | **-2 171 €** |
-| **Estimation standard** | **+6 786 €** |
-| **Estimation haute (+20%)** | **+13 055 €** |
+| **Estimation basse (-20%)** | **-903 €** |
+| **Estimation standard** | **+8 637 €** |
+| **Estimation haute (+20%)** | **+15 487 €** |
 
 ---
 
@@ -126,17 +125,17 @@
 
 | Nb festivaliers | Recettes totales |
 |-----------------|------------------|
-| 400 | 16 714 € |
-| 500 | 20 892 € |
-| 600 | 25 071 € |
-| 700 | 29 249 € |
-| 800 | 33 428 € |
-| 900 | 37 606 € |
-| 1 000 | 41 785 € |
-| 1 100 | 45 963 € |
-| 1 200 | 50 142 € |
-| 1 300 | 54 320 € |
-| 1 400 | 58 499 € |
-| 1 500 | 62 677 € |
+| 400 | 18 364 € |
+| 500 | 22 955 € |
+| 600 | 27 546 € |
+| 700 | 32 137 € |
+| 800 | 36 728 € |
+| 900 | 41 319 € |
+| 1 000 | 45 910 € |
+| 1 100 | 50 501 € |
+| 1 200 | 55 092 € |
+| 1 300 | 59 683 € |
+| 1 400 | 64 274 € |
+| 1 500 | 68 865 € |
 
-**Recette moyenne par festivalier** : 41,78 €
+**Recette moyenne par festivalier** : 45,91 €
