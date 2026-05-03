@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Reçu fiscal — {{RAISON_SOCIALE}}</title>
+<style>
+  @page {
+    size: A4;
+    margin: 2cm 2.2cm;
+  }
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 10pt;
+    color: #111;
+    line-height: 1.45;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border-bottom: 2px solid #111;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+  }
+  header img.logo {
+    width: 90px;
+    height: auto;
+  }
+  header .asso {
+    flex: 1;
+  }
+  header .asso h1 {
+    margin: 0;
+    font-size: 22pt;
+    letter-spacing: 0.5px;
+  }
+  header .asso .subtitle {
+    font-size: 9pt;
+    color: #555;
+    margin-top: 2px;
+  }
+  header .asso .ident {
+    font-size: 8pt;
+    color: #666;
+    margin-top: 6px;
+  }
+  h2.title {
+    text-align: center;
+    font-size: 15pt;
+    margin: 0 0 4px 0;
+  }
+  .article {
+    text-align: center;
+    font-size: 10pt;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  .numero {
+    text-align: center;
+    border: 1px solid #111;
+    padding: 6px;
+    margin: 16px 0;
+    font-size: 11pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .block {
+    margin-bottom: 14px;
+  }
+  .block h3 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 4px 0;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2px;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .objet {
+    background: #f7f7f7;
+    padding: 10px 12px;
+    border-left: 3px solid #d12d2d;
+    font-size: 9.5pt;
+    line-height: 1.5;
+  }
+  .montant {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    background: #fff4f4;
+    border: 1px solid #d12d2d;
+    margin: 12px 0;
+  }
+  .montant small {
+    display: block;
+    font-size: 10pt;
+    font-weight: normal;
+    margin-top: 4px;
+    color: #555;
+  }
+  .certification {
+    font-size: 9pt;
+    color: #444;
+    font-style: italic;
+    margin-top: 16px;
+    padding: 8px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  .signature-block {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .signature-block .lieu-date {
+    font-size: 10pt;
+  }
+  .signature-block .sign {
+    text-align: center;
+  }
+  .signature-block img.signature {
+    max-width: 150px;
+    max-height: 60px;
+    display: block;
+    margin: 0 auto 4px auto;
+  }
+  .signature-block .sign .nom {
+    font-weight: bold;
+    font-size: 10pt;
+  }
+  .signature-block .sign .fonction {
+    font-size: 9pt;
+    color: #555;
+  }
+  footer {
+    margin-top: 32px;
+    font-size: 8pt;
+    color: #888;
+    text-align: center;
+    border-top: 1px dashed #bbb;
+    padding-top: 8px;
+  }
+  {{EXTRA_CSS}}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="{{LOGO_PATH}}" class="logo" alt="Monique Festival">
+  <div class="asso">
+    <h1>{{RAISON_SOCIALE}}</h1>
+    <div class="subtitle">Association Loi 1901 — Œuvre ou organisme d'intérêt général — Arts et culture</div>
+    <div class="ident">
+      RNA : {{RNA}} &nbsp;·&nbsp; SIREN : {{SIREN}} &nbsp;·&nbsp; SIRET : {{SIRET}}<br>
+      {{ADRESSE}} — {{CODE_POSTAL}} {{VILLE}} — {{PAYS}}
+    </div>
+  </div>
+</header>
+
+<h2 class="title">REÇU AU TITRE DES DONS</h2>
+<div class="article">Article {{ARTICLE_CGI}} du Code Général des Impôts</div>
+
+<div class="numero">N° d'ordre : {{NUMERO_RECU}}</div>
+
+<div class="grid-2">
+  <div class="block">
+    <h3>Donateur</h3>
+    <strong>{{DONATEUR_PRENOM}} {{DONATEUR_NOM}}</strong><br>
+    {{DONATEUR_ADRESSE}}<br>
+    {{DONATEUR_CODE_POSTAL}} {{DONATEUR_VILLE}}<br>
+    {{DONATEUR_PAYS}}
+  </div>
+  <div class="block">
+    <h3>Bénéficiaire</h3>
+    <strong>{{RAISON_SOCIALE}}</strong><br>
+    {{ADRESSE}}<br>
+    {{CODE_POSTAL}} {{VILLE}}<br>
+    {{PAYS}}
+  </div>
+</div>
+
+<div class="block">
+  <h3>Objet de l'association</h3>
+  <div class="objet">{{OBJET}}</div>
+</div>
+
+<div class="montant">
+  {{MONTANT_CHIFFRES}} € ({{MONTANT_LETTRES}})
+  <small>
+    Date du don : {{DATE_DON}} &nbsp;·&nbsp;
+    Forme : Don manuel &nbsp;·&nbsp;
+    Nature : Numéraire &nbsp;·&nbsp;
+    Moyen de paiement : {{MOYEN_PAIEMENT}}
+  </small>
+</div>
+
+<div class="certification">
+  Le bénéficiaire certifie sur l'honneur que les dons et versements qu'il reçoit ouvrent droit à la réduction
+  d'impôt prévue à l'article {{ARTICLE_CGI}} du Code Général des Impôts.<br><br>
+  <strong>Particulier</strong> : vous pouvez bénéficier d'une réduction d'impôt égale à
+  <strong>{{TAUX_REDUCTION}} %</strong> du montant de votre don, dans la limite de 20 % de votre revenu imposable.
+</div>
+
+<div class="signature-block">
+  <div class="lieu-date">
+    Fait à <strong>{{VILLE_SIGNATURE}}</strong>,<br>
+    le <strong>{{DATE_EMISSION}}</strong>
+  </div>
+  <div class="sign">
+    {{SIGNATURE_HTML}}
+    <div class="nom">{{SIGNATAIRE_NOM}}</div>
+    <div class="fonction">{{SIGNATAIRE_FONCTION}} de l'association {{RAISON_SOCIALE}}</div>
+  </div>
+</div>
+
+<footer>
+  Reçu émis conformément au modèle Cerfa n° 11580*04. À conserver pour votre déclaration d'impôts.
+  {{MENTION_TEST}}
+</footer>
+
+</body>
+</html>

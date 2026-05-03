@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organisation — Monique Festival 2026</title>
+<style>
+  :root {
+    --pole1: #e07b54; --pole2: #d4a843; --pole3: #5b9e6f;
+    --pole4: #4a8db7; --pole5: #9b6bb0;
+    --bg: #faf8f5; --text: #2c2c2c; --subtle: #8a8580;
+    --card-bg: #fff; --border: #e8e4df;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; padding:2rem 1rem; }
+  header { text-align:center; margin-bottom:2rem; }
+  header h1 { font-size:2rem; font-weight:700; }
+  header p { color:var(--subtle); margin-top:0.3rem; font-size:0.95rem; }
+
+  .view-tabs { display:flex; justify-content:center; margin-bottom:1.5rem; }
+  .view-tabs button { padding:0.5rem 1.5rem; border:1px solid var(--border); background:var(--card-bg); cursor:pointer; font-size:0.9rem; font-weight:500; }
+  .view-tabs button:first-child { border-radius:8px 0 0 8px; }
+  .view-tabs button:last-child { border-radius:0 8px 8px 0; border-left:none; }
+  .view-tabs button.active { background:var(--text); color:#fff; }
+
+  .controls { display:flex; justify-content:center; gap:0.5rem; margin-bottom:2rem; flex-wrap:wrap; }
+  .controls button { padding:0.4rem 1rem; border:1px solid var(--border); border-radius:6px; background:var(--card-bg); cursor:pointer; font-size:0.85rem; }
+  .toggle-group { display:flex; border:1px solid var(--border); border-radius:6px; overflow:hidden; }
+  .toggle-group button { border:none; border-radius:0; border-right:1px solid var(--border); }
+  .toggle-group button:last-child { border-right:none; }
+  .toggle-group button.active { background:var(--text); color:#fff; }
+
+  .container { max-width:1100px; margin:0 auto; }
+  .central { text-align:center; margin-bottom:1.5rem; }
+  .central .node { display:inline-block; background:var(--text); color:#fff; padding:0.7rem 2rem; border-radius:12px; font-weight:700; font-size:1.1rem; }
+  .connector-line { width:2px; height:24px; background:var(--border); margin:0 auto; }
+
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:1rem; }
+
+  .pole { background:var(--card-bg); border-radius:12px; border:1px solid var(--border); overflow:hidden; }
+  .pole:hover { box-shadow:0 4px 20px rgba(0,0,0,0.06); }
+  .pole-header { padding:1rem 1.2rem; cursor:pointer; display:flex; align-items:center; gap:0.8rem; user-select:none; }
+  .pole-dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; }
+  .pole-header h2 { font-size:1rem; font-weight:700; flex:1; }
+  .pole-header .chef { font-size:0.85rem; color:var(--subtle); }
+  .pole-header .chevron { font-size:0.8rem; transition:transform 0.25s; color:var(--subtle); }
+  .pole.open .pole-header .chevron { transform:rotate(90deg); }
+  .pole-body { max-height:0; overflow:hidden; transition:max-height 0.35s ease; }
+  .pole.open .pole-body { max-height:3000px; }
+
+  .phase { padding:0 1.2rem 0.5rem; }
+  .phase-label { font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--subtle); font-weight:600; margin-bottom:0.4rem; padding-top:0.6rem; border-top:1px solid var(--border); }
+  .category { margin:0.4rem 0 0.6rem; border-left:3px solid var(--border); padding-left:0.7rem; }
+  .category-label { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.2rem; opacity:0.7; }
+  .sub-pole { display:flex; justify-content:space-between; align-items:baseline; padding:0.25rem 4px; font-size:0.86rem; gap:0.5rem; border-radius:4px; }
+  .sub-pole .label { flex:1; }
+  .sub-pole .label.tentative { font-style:italic; color:var(--subtle); }
+  .sub-pole .resp { font-weight:600; white-space:nowrap; font-size:0.82rem; }
+  .sub-pole .resp.tentative { font-style:italic; font-weight:400; color:var(--subtle); }
+  .sub-pole .resp.tbd { color:#c0392b; font-weight:400; font-size:0.8rem; }
+
+  /* Person cards */
+  .pcard { background:var(--card-bg); border-radius:12px; border:1px solid var(--border); overflow:hidden; }
+  .pcard:hover { box-shadow:0 4px 20px rgba(0,0,0,0.06); }
+  .pcard-top { padding:1rem 1.2rem; display:flex; align-items:center; gap:0.6rem; cursor:pointer; user-select:none; }
+  .pcard-top:hover { opacity:0.85; }
+  .pcard-chevron { font-size:0.8rem; color:var(--subtle); transition:transform 0.25s; }
+  .pcard.open .pcard-chevron { transform:rotate(90deg); }
+  .pcard-avatar { width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.95rem; color:#fff; flex-shrink:0; }
+  .pcard-name { font-weight:700; font-size:1.05rem; flex:1; }
+  .pcard-name.tent { font-style:italic; opacity:0.7; }
+  .pcard-name .tag { font-size:0.65rem; font-weight:400; font-style:italic; color:var(--subtle); margin-left:0.3rem; }
+  .pcard-count { font-size:0.75rem; color:var(--subtle); }
+  .pcard-inner { max-height:0; overflow:hidden; transition:max-height 0.35s ease; }
+  .pcard.open .pcard-inner { max-height:2000px; }
+  .pcard-badges { padding:0.5rem 1.2rem 0; display:flex; gap:0.3rem; flex-wrap:wrap; }
+  .pcard-badge { font-size:0.65rem; padding:0.15rem 0.5rem; border-radius:10px; font-weight:600; color:#fff; white-space:nowrap; }
+  .pcard-body { padding:0.8rem 1.2rem 1rem; }
+  .pcard-section { font-size:0.68rem; text-transform:uppercase; letter-spacing:0.07em; font-weight:600; color:var(--subtle); margin-top:0.6rem; margin-bottom:0.3rem; padding-top:0.4rem; }
+  .pcard-section:first-child { margin-top:0; padding-top:0; }
+  .pcard-role { display:flex; align-items:baseline; gap:0.5rem; padding:0.2rem 0; font-size:0.84rem; }
+  .pcard-role .ptag { font-size:0.65rem; font-weight:600; padding:0.1rem 0.45rem; border-radius:4px; color:#fff; white-space:nowrap; flex-shrink:0; }
+  .pcard-role .rtxt { flex:1; }
+  .pcard-role .rtxt.tent { font-style:italic; color:var(--subtle); }
+
+  .legend { margin-top:2.5rem; text-align:center; font-size:0.8rem; color:var(--subtle); display:flex; justify-content:center; gap:1.5rem; flex-wrap:wrap; }
+  .legend span { display:flex; align-items:center; gap:0.3rem; }
+  .astreinte { margin-top:2rem; background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:1.2rem; max-width:500px; margin-left:auto; margin-right:auto; }
+  .astreinte h3 { font-size:0.95rem; margin-bottom:0.6rem; }
+  .astreinte table { width:100%; border-collapse:collapse; font-size:0.85rem; }
+  .astreinte th,.astreinte td { padding:0.3rem 0.6rem; text-align:left; border-bottom:1px solid var(--border); }
+  .astreinte th { font-weight:600; color:var(--subtle); font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; }
+  footer { text-align:center; margin-top:2rem; font-size:0.75rem; color:var(--subtle); }
+
+  .hidden { display:none !important; }
+
+  @media(max-width:700px) { .grid { grid-template-columns:1fr; } header h1 { font-size:1.5rem; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Monique Festival 2026</h1>
+  <p>Organisation g&eacute;n&eacute;rale &mdash; 5 p&ocirc;les</p>
+</header>
+
+<div class="view-tabs" id="viewTabs">
+  <button onclick="showPoles()" class="active" id="btnPoles">Par p&ocirc;le</button>
+  <button onclick="showPersons()" id="btnPersons">Par personne</button>
+</div>
+
+<!-- ============ VUE PAR POLE ============ -->
+<div id="vPoles">
+  <div class="controls">
+    <button onclick="toggleAll(true)">Tout d&eacute;plier</button>
+    <button onclick="toggleAll(false)">Tout replier</button>
+    <div class="toggle-group">
+      <button class="active" onclick="filterPhase('all',this)">Tout</button>
+      <button onclick="filterPhase('avant',this)">Avant</button>
+      <button onclick="filterPhase('pendant',this)">Pendant</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="central"><div class="node">Monique Festival</div></div>
+    <div class="connector-line"></div>
+    <div class="grid" id="polesGrid"></div>
+  </div>
+</div>
+
+<!-- ============ VUE PAR PERSONNE ============ -->
+<div id="vPersons" class="hidden">
+  <div class="controls">
+    <button onclick="toggleAllPersons(true)">Tout d&eacute;plier</button>
+    <button onclick="toggleAllPersons(false)">Tout replier</button>
+  </div>
+  <div class="container">
+    <div class="grid" id="personsGrid"></div>
+  </div>
+</div>
+
+<!-- ============ BAS DE PAGE ============ -->
+<div class="container">
+  <div class="legend">
+    <span><strong>Texte normal</strong> = confirm&eacute;</span>
+    <span><em style="color:var(--subtle)">Italique</em> = &agrave; confirmer</span>
+    <span><span style="color:#c0392b">&Agrave; d&eacute;finir</span> = poste vacant</span>
+  </div>
+</div>
+<footer>Document de travail &mdash; 12 avril 2026</footer>
+
+<script>
+/* ══════════════════════ DATA ══════════════════════ */
+var DATA = [
+  {
+    name:"Direction Artistique", chef:"Lewis", color:"#e07b54",
+    avant:[
+      {cat:"Programmation", items:[["Vision artistique globale","Lewis"],["Musique Actuelle","Luther"],["Musique Classique","Lorraine"],["Th\u00e9\u00e2tre","Lewis"]]},
+      {cat:"Action culturelle", items:[["Action culturelle / Ateliers","Lorraine"],["Animations","Loretta*"],["Engagement \u00e9thique","Loretta + L\u00e9ontine*"]]},
+      {cat:"Ambiance & site", items:[["Ambiance du site (d\u00e9co, animations, loges)","Lewis"]]}
+    ],
+    pendant:[
+      {cat:"Coordination artistique", items:[["Coordination artistique globale","Lewis"],["Liaison artistes musique actuelle","Luther"],["Liaison artistes classique","Lorraine"],["Liaison compagnies th\u00e9\u00e2tre","Lewis"]]},
+      {cat:"Action culturelle", items:[["Animations jour J","Loretta*"],["Safe place + stands \u00e9thiques","Loretta + L\u00e9ontine*"]]},
+      {cat:"Ambiance & site", items:[["Animations","Lewis"]]}
+    ]
+  },
+  {
+    name:"Communication", chef:"Lorraine", color:"#d4a843",
+    avant:[
+      {cat:"Strat\u00e9gie & contenu", items:[["Strat\u00e9gie de communication","Lorraine"],["Contenu \u00e9ditorial (newsletters, interviews)","Lorraine"]]},
+      {cat:"Digital & visuel", items:[["Communication visuelle (charte, affiches)","Luther"],["Site internet","Luther"],["R\u00e9seaux sociaux","Luther"],["Signal\u00e9tique / Goodies","Luther"]]},
+      {cat:"Relations ext\u00e9rieures", items:[["Relations presse","L\u00e9opold"],["Relations institutionnelles","Lewis"]]}
+    ],
+    pendant:[
+      {cat:"Digital & visuel", items:[["Communication live / r\u00e9seaux","Luther"],["Photographe / vid\u00e9aste",null]]},
+      {cat:"Relations ext\u00e9rieures", items:[["Accueil presse sur site","L\u00e9opold"],["Accueil institutionnels / partenaires","Lewis"]]}
+    ]
+  },
+  {
+    name:"Production & Administration", chef:"Charles", color:"#5b9e6f",
+    avant:[
+      {cat:"Finances", items:[["Budget global","Charles"],["Banque (Qonto, TPE)","Charles"]]},
+      {cat:"Juridique & contrats", items:[["Contrats & juridique (GUSO, assurances)","Charles"],["Licences & droits (SACEM)","Charles"]]},
+      {cat:"Financement", items:[["Subventions (DRAC, R\u00e9gion, Pass Culture)","Charles"],["Partenariats priv\u00e9s & m\u00e9c\u00e9nat","Charles + Clotilde"],["Financement participatif (HelloAsso)","Charles"]]},
+      {cat:"Administration", items:[["Administration association","Charles"],["Contact propri\u00e9taire / dossier arbres","Charles"],["Pr\u00e9sidence (repr\u00e9sentation l\u00e9gale)","Judith"],["Support coordination","Wadih"]]}
+    ],
+    pendant:[
+      {cat:"Finances", items:[["Billetterie (vente, bracelets, contr\u00f4le)","Charles"],["Caisse / tr\u00e9sorerie jour J","Charles"]]},
+      {cat:"Administration", items:[["Relation propri\u00e9taire sur site","Charles"],["Repr\u00e9sentation officielle (discours, VIP)","Judith"],["Support coordination","Wadih"]]}
+    ]
+  },
+  {
+    name:"Technique", chef:"L\u00e9opold", color:"#4a8db7",
+    avant:[
+      {cat:"Infrastructure", items:[["Implantation technique du site","L\u00e9opold"],["Infrastructure & am\u00e9nagement","L\u00e9opold"],["Mat\u00e9riel technique","L\u00e9opold"],["Toilettes s\u00e8ches (Trivial Compost)","L\u00e9opold"]]},
+      {cat:"Sc\u00e8nes & plateau", items:[["Sc\u00e8ne amplifi\u00e9e","L\u00e9opold + Luther"],["Sc\u00e8ne acoustique","L\u00e9opold"],["Plateau th\u00e9\u00e2tre","Lewis"]]},
+      {cat:"Logistique artistes", items:[["Fiches techniques artistes (riders)","L\u00e9opold"],["Logistique artistes (h\u00e9bergement, transport)","L\u00e9opold"],["Planning balances / r\u00e9p\u00e9titions","L\u00e9opold"]]}
+    ],
+    pendant:[
+      {cat:"R\u00e9gie & sc\u00e8nes", items:[["R\u00e9gie g\u00e9n\u00e9rale (changements, timing)","L\u00e9opold"],["Son / lumi\u00e8re sc\u00e8ne amplifi\u00e9e","Luther"],["Plateau th\u00e9\u00e2tre","Lewis"]]},
+      {cat:"Infrastructure & artistes", items:[["Accueil artistes backstage","L\u00e9opold"],["Gestion impr\u00e9vus techniques","L\u00e9opold"],["Infrastructure jour J","L\u00e9opold"]]}
+    ]
+  },
+  {
+    name:"Logistique Site", chef:"Clotilde", color:"#9b6bb0",
+    avant:[
+      {cat:"Restauration & boissons", items:[["Restauration (menu, commandes)","Clotilde"],["Buvette / Bar","Clotilde"],["Approvisionnement (circuits courts)","Clotilde"],["Stockage (r\u00e9frig\u00e9ration)","Clotilde"]]},
+      {cat:"Ressources humaines", items:[["B\u00e9n\u00e9voles (recrutement, planning)","Francine*"]]},
+      {cat:"S\u00e9curit\u00e9 & acc\u00e8s", items:[["S\u00e9curit\u00e9 (dossier, mairie, pompiers)","Ga\u00e9tan*"],["Parking / Circulation",null]]},
+      {cat:"Montage", items:[["Montage / D\u00e9montage","Clotilde"]]}
+    ],
+    pendant:[
+      {cat:"Restauration & boissons", items:[["Service restauration","Clotilde"],["Service bar / buvette","Clotilde"]]},
+      {cat:"Ressources humaines", items:[["Coordination b\u00e9n\u00e9voles jour J","Francine*"],["Entretien / propret\u00e9","Francine*"]]},
+      {cat:"S\u00e9curit\u00e9 & acc\u00e8s", items:[["S\u00e9curit\u00e9 jour J","Ga\u00e9tan*"],["Parking / Circulation",null]]}
+    ]
+  }
+];
+
+var POLE_SHORT = {
+  "Direction Artistique":"Artistique",
+  "Communication":"Com",
+  "Production & Administration":"Prod/Admin",
+  "Technique":"Technique",
+  "Logistique Site":"Logistique"
+};
+
+/* ══════════════════════ VIEW SWITCHING ══════════════════════ */
+function showPoles() {
+  document.getElementById("vPoles").className = "";
+  document.getElementById("vPersons").className = "hidden";
+  document.getElementById("btnPoles").className = "active";
+  document.getElementById("btnPersons").className = "";
+}
+function showPersons() {
+  document.getElementById("vPoles").className = "hidden";
+  document.getElementById("vPersons").className = "";
+  document.getElementById("btnPoles").className = "";
+  document.getElementById("btnPersons").className = "active";
+}
+
+/* ══════════════════════ POLE VIEW ══════════════════════ */
+var curPhase = "all";
+
+function drawPoles() {
+  var el = document.getElementById("polesGrid");
+  var h = "";
+  for (var i = 0; i < DATA.length; i++) {
+    var p = DATA[i];
+    var body = "";
+    if (curPhase === "all" || curPhase === "avant") {
+      body += '<div class="phase"><div class="phase-label">Avant le festival</div>';
+      for (var j = 0; j < p.avant.length; j++) body += catHTML(p.avant[j], p.color);
+      body += '</div>';
+    }
+    if (curPhase === "all" || curPhase === "pendant") {
+      body += '<div class="phase"><div class="phase-label">Pendant le festival</div>';
+      for (var j = 0; j < p.pendant.length; j++) body += catHTML(p.pendant[j], p.color);
+      body += '</div>';
+    }
+    h += '<div class="pole open">';
+    h += '<div class="pole-header" onclick="this.parentElement.classList.toggle(\'open\')">';
+    h += '<div class="pole-dot" style="background:' + p.color + '"></div>';
+    h += '<h2>' + p.name + '</h2>';
+    h += '<span class="chef">' + p.chef + '</span>';
+    h += '<span class="chevron">&#9654;</span></div>';
+    h += '<div class="pole-body">' + body + '</div></div>';
+  }
+  el.innerHTML = h;
+}
+
+function catHTML(c, color) {
+  var h = '<div class="category" style="border-left-color:' + color + '">';
+  h += '<div class="category-label" style="color:' + color + '">' + c.cat + '</div>';
+  for (var k = 0; k < c.items.length; k++) h += rowHTML(c.items[k]);
+  h += '</div>';
+  return h;
+}
+
+function rowHTML(item) {
+  var label = item[0], resp = item[1];
+  if (!resp) return '<div class="sub-pole"><span class="label">' + label + '</span><span class="resp tbd">\u00c0 d\u00e9finir</span></div>';
+  var tent = resp.charAt(resp.length - 1) === "*";
+  var name = tent ? resp.slice(0, -1) : resp;
+  var lc = tent ? "label tentative" : "label";
+  var rc = tent ? "resp tentative" : "resp";
+  return '<div class="sub-pole"><span class="' + lc + '">' + label + '</span><span class="' + rc + '">' + name + '</span></div>';
+}
+
+function toggleAll(open) {
+  var els = document.querySelectorAll(".pole");
+  for (var i = 0; i < els.length; i++) {
+    if (open) els[i].classList.add("open"); else els[i].classList.remove("open");
+  }
+}
+
+function filterPhase(ph, btn) {
+  curPhase = ph;
+  var btns = document.querySelectorAll(".toggle-group button");
+  for (var i = 0; i < btns.length; i++) btns[i].classList.remove("active");
+  btn.classList.add("active");
+  drawPoles();
+}
+
+/* ══════════════════════ PERSON VIEW ══════════════════════ */
+function drawPersons() {
+  var people = {};
+  var order = [];
+  var i, j, k, ph, c, item, resp, tent, raw, names, n;
+
+  // Collect all tasks per person
+  for (i = 0; i < DATA.length; i++) {
+    var phases = ["avant", "pendant"];
+    for (j = 0; j < phases.length; j++) {
+      ph = phases[j];
+      var cats = DATA[i][ph];
+      for (c = 0; c < cats.length; c++) {
+        for (k = 0; k < cats[c].items.length; k++) {
+          item = cats[c].items[k];
+          resp = item[1];
+          if (!resp) continue;
+          tent = resp.charAt(resp.length - 1) === "*";
+          raw = tent ? resp.slice(0, -1) : resp;
+          names = raw.split("+");
+          for (n = 0; n < names.length; n++) {
+            var nm = names[n].replace(/^\s+|\s+$/g, "");
+            if (!people[nm]) {
+              people[nm] = { tent: tent, chefOf: [], avant: [], pendant: [] };
+              order.push(nm);
+            }
+            if (!tent) people[nm].tent = false;
+            people[nm][ph].push({
+              pole: DATA[i].name,
+              color: DATA[i].color,
+              cat: cats[c].cat,
+              label: item[0],
+              tent: tent
+            });
+          }
+        }
+      }
+    }
+    // Mark chef
+    if (people[DATA[i].chef]) {
+      people[DATA[i].chef].chefOf.push({ name: DATA[i].name, color: DATA[i].color });
+    }
+  }
+
+  // Sort: chefs first, confirmed, tentative
+  order.sort(function(a, b) {
+    var ac = people[a].chefOf.length > 0 ? 0 : 1;
+    var bc = people[b].chefOf.length > 0 ? 0 : 1;
+    if (ac !== bc) return ac - bc;
+    var at = people[a].tent ? 1 : 0;
+    var bt = people[b].tent ? 1 : 0;
+    if (at !== bt) return at - bt;
+    return a.localeCompare(b);
+  });
+
+  // Render cards
+  var h = "";
+  for (i = 0; i < order.length; i++) {
+    var nm = order[i];
+    var p = people[nm];
+    var total = p.avant.length + p.pendant.length;
+    var col = p.chefOf.length ? p.chefOf[0].color : (p.avant[0] ? p.avant[0].color : (p.pendant[0] ? p.pendant[0].color : "#888"));
+
+    h += '<div class="pcard open">';
+    h += '<div class="pcard-top" onclick="this.parentElement.classList.toggle(\'open\')">';
+    h += '<div class="pcard-avatar" style="background:' + col + '">' + nm.charAt(0) + '</div>';
+    h += '<span class="pcard-name' + (p.tent ? " tent" : "") + '">' + nm;
+    if (p.tent) h += '<span class="tag">&agrave; confirmer</span>';
+    h += '</span>';
+    h += '<span class="pcard-count">' + total + ' missions</span>';
+    h += '<span class="pcard-chevron">&#9654;</span>';
+    h += '</div>';
+
+    h += '<div class="pcard-inner">';
+
+    // Chef badges
+    if (p.chefOf.length) {
+      h += '<div class="pcard-badges">';
+      for (j = 0; j < p.chefOf.length; j++) {
+        h += '<span class="pcard-badge" style="background:' + p.chefOf[j].color + '">Chef ' + p.chefOf[j].name + '</span>';
+      }
+      h += '</div>';
+    }
+
+    h += '<div class="pcard-body">';
+
+    // Avant
+    if (p.avant.length) {
+      h += '<div class="pcard-section">Avant le festival (' + p.avant.length + ')</div>';
+      for (j = 0; j < p.avant.length; j++) {
+        var r = p.avant[j];
+        h += '<div class="pcard-role">';
+        h += '<span class="ptag" style="background:' + r.color + '">' + (POLE_SHORT[r.pole] || r.pole) + '</span>';
+        h += '<span class="rtxt' + (r.tent ? " tent" : "") + '">' + r.label + '</span>';
+        h += '</div>';
+      }
+    }
+
+    // Pendant
+    if (p.pendant.length) {
+      h += '<div class="pcard-section">Pendant le festival (' + p.pendant.length + ')</div>';
+      for (j = 0; j < p.pendant.length; j++) {
+        var r = p.pendant[j];
+        h += '<div class="pcard-role">';
+        h += '<span class="ptag" style="background:' + r.color + '">' + (POLE_SHORT[r.pole] || r.pole) + '</span>';
+        h += '<span class="rtxt' + (r.tent ? " tent" : "") + '">' + r.label + '</span>';
+        h += '</div>';
+      }
+    }
+
+    h += '</div></div></div>';
+  }
+
+  document.getElementById("personsGrid").innerHTML = h;
+}
+
+function toggleAllPersons(open) {
+  var els = document.querySelectorAll(".pcard");
+  for (var i = 0; i < els.length; i++) {
+    if (open) els[i].classList.add("open"); else els[i].classList.remove("open");
+  }
+}
+
+/* ══════════════════════ INIT ══════════════════════ */
+drawPoles();
+drawPersons();
+</script>
+</body>
+</html>

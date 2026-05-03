@@ -1,273 +1,202 @@
-# Organisation - Répartition des Rôles
-
+# Organisation — Répartition des Rôles
 ## Monique Festival 2026
 
----
-
-## 📢 Communication & Marketing
-
-**Personnes en charge** : Lorraine et Luther
-
-| Domaine | Détails |
-|---------|---------|
-| Réseaux sociaux | Gestion Instagram, Facebook |
-| Site internet | Création et mise à jour |
-| Newsletters | Rédaction et envoi |
-| Revue de presse | Suivi et compilation |
-| Charte graphique | Pour toutes les communications |
-| Signalétique | Panneaux, fléchage |
-| DA affiche | Direction artistique |
-| Goodies | Conception et commande |
+*Version mise à jour du 19 avril 2026 — adoptée par délibération du Bureau post-AGE.*
 
 ---
 
-## 🤝 Relations Publiques
+## 🧭 Structure en 6 pôles
 
-**Personnes en charge** : Léopold, Lewis (et Clotilde)
-
-*Partie action culturelle par Fabulo*
-
-### Institutions à contacter
-
-- RODIA
-- Ville de Besançon
-- Département
-- Région
-- DRAC
-- Conservatoire
-- Organisation de festival
-- CDN
-- Mairie
-
-### Contacts presse
-
-- L'Est Républicain
-- France 3
-- Radio FIP
-- Commune Info
-- BVV
-- Vue du Doubs
-- Radio Bleu
-
-### À faire
-
-- [ ] Trouver vidéaste/photographe
-- [ ] Dossier de presse
-- [ ] Contacts partenaires
+| # | Pôle | Chef·fe de pôle | Co-responsable·s |
+|---|------|-----------------|------------------|
+| 1 | **Artistique** | **Lewis JANIER-DUBRY** | Direction artistique, programmation théâtre et ambiance du site (Lewis). Programmation musique classique (Lorraine), musique actuelle (Luther + Léopold). **Action culturelle (Fabulo)** co-portée par Lorraine + Luther. |
+| 2 | **Communication, Animations & Accueil** | **Lorraine JANIER-DUBRY + Luther JANIER-DUBRY** *(co-responsables conjoints sur toute la charge)* | Communication, animations, **accueil artistes (logistique)**, **accueil public (accessibilité)**. Volet **DA/décoration des animations et loges** : **Lewis** intervient en appui depuis le Pôle 1. **Engagement éthique** sous la seule responsabilité de Lorraine. |
+| 3 | **Technique** | **Léopold JANIER-DUBRY** | — |
+| 4 | **Logistique** (restauration / buvette / catering) | **Clotilde JANIER-DUBRY** | — |
+| 5 | **Administratif** (relations extérieures, billetterie, financement) | **Charles JANIER-DUBRY** | Lorraine (appui financement participatif) |
+| 6 | **Bénévoles** | **Loretta ALIVAUD** | — |
 
 ---
 
-## 🎤 Relations Artistes (Référent artiste)
+## 🎨 Pôle 1 — ARTISTIQUE *(Chef de pôle : Lewis)*
 
-**Personnes en charge** : Léopold (Lorraine)
+Le Pôle Artistique est centré sur la **création** et la **programmation** ; les volets opérationnels relatifs aux artistes (logistique, hébergement) et au public (accessibilité, éthique) relèvent du Pôle 2.
 
-| Tâche | Description |
-|-------|-------------|
-| Contact artistes | Communication directe |
-| Contrats | Rédaction et signature |
-| Fiche technique | Besoins techniques de chaque artiste |
-| Fiche artiste | Bio, photos, infos |
-| Planning balances | Organisation des répétitions |
-| Logistique | Logement, déplacement des artistes |
-| Accueil artistes | Sur place pendant le festival |
-| Action culturelle | Besoins pour les ateliers |
-| Documentation | Implantation document des ateliers |
+### Programmation et création
+| Domaine | Responsable·s |
+|---------|---------------|
+| Vision artistique globale / Direction Artistique | Lewis |
+| Programmation théâtre | Lewis |
+| Programmation musique classique | Lorraine |
+| Programmation musique actuelle | Luther + Léopold |
+| Ambiance du site (déco, scénographie, loges) | Lewis |
+| **Signalétique** (fléchage, panneaux, signalétique de site) | **Lewis** |
+| **Goodies** (conception, commande, sérigraphie) | **Lewis** |
 
----
-
-## 🙋 Relations Bénévoles
-
-**Personnes en charge** : Clotilde, Léopold (et Lorraine)
-
-### Équipes bénévoles à constituer
-
-| Équipe | Mission |
-|--------|---------|
-| Sécurité | Surveillance et prévention |
-| Restauration/Buvette | Service et préparation |
-| Billetterie | Accueil et vente |
-| Relations publiques sur place | Information visiteurs |
-| Accueil artistes | Accompagnement backstage |
-| Accueil handicap | Signer, accompagnants |
-| Hébergement artistes | Bénévoles qui accueillent chez eux |
-| Transport | Navettes et déplacements |
-| Sanitaires | Gestion et entretien |
-| Montage/Démontage | Installation et rangement |
-| Comptage public | Entrées/sorties |
-| Tour de contrôle | Coordination générale |
-
-### À faire
-
-- [ ] Lancer un appel à bénévoles
-- [ ] Rencontrer les personnes qui postulent
-- [ ] Faire planning bénévoles
-- [ ] Faire fiche de mission par catégorie
+### Action culturelle *(responsable : Lorraine — avec l'appui de Luther, en lien avec le collectif Fabulo)*
+- Ateliers musicaux (Fabulo)
+- Masterclass chant lyrique, atelier d'écriture, atelier théâtre, atelier production musicale
+- Création Monique (restitution publique dimanche)
+- Coordination avec les intervenants de l'action culturelle
 
 ---
 
-## 🎨 Direction Artistique du Festival
+## 📢 Pôle 2 — COMMUNICATION, ANIMATIONS & ACCUEIL *(Co-responsables : Lorraine + Luther)*
 
-**Personnes en charge** : Clotilde, Lorraine, Lewis, Loretta
+### Communication
+| Domaine | Notes |
+|---------|-------|
+| Stratégie de communication | Lorraine + Luther |
+| Communication visuelle (charte, affiches, DA) | Luther |
+| Site internet (contenu + technique) | Lorraine + Luther |
+| Réseaux sociaux (Instagram, Facebook) | Luther |
+| **Dossier et relations presse** (nationale et locale) | Lorraine + Luther |
 
-### Éléments DA
+> *La **signalétique** et les **goodies** relèvent du Pôle 1 Artistique (Lewis) — cohérence avec la direction artistique et l'ambiance du site.*
 
-- Ballons, boule disco
-- Plan des animations
+### Animations *(ex-Village des artisans)* — Lorraine + Luther
+*Volet **Direction Artistique (décoration, scénographie, loges)** : **Lewis** intervient en appui depuis le Pôle 1 pour garantir la cohérence artistique.*
 
-### Animations prévues
+| Domaine | Responsable·s |
+|---------|---------------|
+| Coin photo-booth, stand maquillage, échecs | Lorraine + Luther |
+| **Décoration, scénographie du site, ambiance visuelle** | **Lewis (DA — Pôle 1)** — en lien avec Lorraine + Luther |
+| Lumières événementielles (hors technique scène) | Lewis (DA) + Luther (visuel com) |
+| **Signalétique animations** | **Lewis (DA — Pôle 1)** |
+| **Sérigraphie, goodies** | **Lewis (DA — Pôle 1)** |
+| Marché artisans / exposants | Lorraine + Luther |
+| **Loges artistes (décoration, nommage)** | **Lewis (DA — Pôle 1)** |
 
-| Animation | Description |
-|-----------|-------------|
-| Coin canapé | Espace détente |
-| Coin photo booth | Photos souvenirs |
-| Échecs | Tournoi/partie libre |
-| Stand maquillage | Pour enfants et adultes |
-| Lumières | Ambiance et décoration |
-| Signalétique | Fléchage et information |
-| Sérigraphie | Atelier créatif |
-| Goodies | Objets souvenir |
-| Marché artisans | Stands exposants |
-| Loges artistes | Nommage et décoration |
+### Accueil artistes — Logistique artiste *(Lorraine + Luther)*
+- Déplacements des artistes (transport autour de Besançon)
+- Hébergement des artistes (en lien avec **Loretta** pour la mobilisation des bénévoles hébergeurs)
+- Suivi des fiches techniques
+- Liaison avec les artistes avant, pendant et après le festival
 
-### À faire
-
-- [ ] Lister toutes les idées
-- [ ] Transmettre contacts partenaires à Relations Publiques
-- [ ] Planning installations extras pendant le festival
-- [ ] Budgétisation
-- [ ] Écocups etc.
-
----
-
-## 📋 Administratif & Logistique
-
-**Personnes en charge** : Charles, Loretta et Léo (et membres du bureau)
-
-### Gestion financière
-
-| Tâche | Détails |
-|-------|---------|
-| Budget | Suivi global |
-| Trésorerie | Planning des dépenses |
-| Communication | Informer quand on pourra défrayer |
-
-### Administration
-
-- Admin de l'association
-- Demande de licence
-- Demande de certains droits
-- Dossier Régis Régis
-- Dossier sanitaires
-- Dossiers subventions (SACEM, région, etc.)
-- Pass Culture
-- Dossier banque → terminal TPE, connexion wifi
-- Contrats/accords partenaires
-- Contact avec le propriétaire
-- Paiements/rémunérations/indemnités des contrats/justificatifs
-- Formalités pour les dons
-- Technique du site internet
-
----
-
-## 🍽️ Restauration
-
-**Personnes en charge** : Clotilde et Lewis
-
-| Domaine | Détails |
-|---------|---------|
-| Partenaires | Contact et négociation |
-| Menu | Élaboration pour le public |
-| Commandes | Aller chercher les produits |
-| Budget | Chiffrage nourriture |
-| Stockage frais | Organisation réfrigération |
-| Stockage nuit | Sécurisation des produits |
-| Catering | Pour artistes et bénévoles |
-| Boissons | Gestion bar |
-| Eau | Approvisionnement |
-
----
-
-## 🔧 Technique
-
-**Personnes en charge** : Léopold, Lewis et Luther
-
-### Implantation technique du site
-
-*Document à créer pendant la visite avec tout le monde*
-
-| Zone | À planifier |
-|------|-------------|
-| Scènes | Placement et installation |
-| Restauration | Espace food |
-| Fumoir | Zone dédiée |
-| Catering | Espace artistes/bénévoles |
-| Loges | Backstage |
-| Espace admin | Bureau organisation |
-| Espace ateliers | Action culturelle |
-| Stands artisans | Exposants |
-| Stands animation | Activités |
-| Poste infirmerie | Premiers secours |
-| Poste safe place | Espace sécurisé |
-| Poste sécurité | Surveillance |
-| Coin détente | Repos public |
-| Toilettes | Sanitaires |
-
-### Organisation
-
-- [ ] Changements de plateau
-- [ ] Changements de décor
-- [ ] Planning balances
-- [ ] Coordination avec les artistes
-- [ ] Trouver talkies-walkies / matériel technique
-- [ ] Organisation Trivial Compost pour les toilettes
-- [ ] Listing des besoins techniques
-
----
-
-## 💚 Engagement Éthique
-
-**Personnes en charge** : Loretta, Romane et Lorraine (Léontine)
-
-### Missions
-
-- Proposer des idées qui répondent aux engagements
-- Organiser les stands et actions concrètes
+### Accueil public — Accessibilité *(Lorraine + Luther)*
+- Accueil PMR, signalétique accessible
 - Safe place
-- Croix Rouge
+- Stand Croix-Rouge
+- Partenariat Cre-AI
 
-### À faire
-
-- [ ] Budgétisation
-- [ ] Contact partenaires
-
----
-
-## 💰 Financement Participatif
-
-**Personnes référentes** : Charles et Lorraine
-
-| Phase | Tâches |
-|-------|--------|
-| **Avant** | Mise en page Ulule |
-| **Pendant** | Gestion de la campagne |
-| **Budget** | Suivi des objectifs |
-| **Carte financement** | Léo |
-
-> 💡 **Tout le monde actif et actives !**
+### Engagement éthique *(responsable : Lorraine — seule)*
+*(Seul volet du Pôle 2 où Lorraine porte la mission sans co-responsabilité de Luther.)*
+- Démarche écoresponsable du festival
+- Charte éthique, respect et dignité
+- Dispositif de signalement
 
 ---
 
-## 📊 Récapitulatif des responsables
+## 🔧 Pôle 3 — TECHNIQUE *(Chef de pôle : Léopold)*
 
-| Pôle | Responsables |
-|------|--------------|
-| Communication & Marketing | Lorraine, Luther |
-| Relations Publiques | Léopold, Lewis, Clotilde |
-| Relations Artistes | Léopold, Lorraine |
-| Relations Bénévoles | Clotilde, Léopold, Lorraine |
-| Direction Artistique | Clotilde, Lorraine, Lewis, Loretta |
-| Administratif & Logistique | Charles, Loretta, Léo |
-| Restauration | Clotilde, Lewis |
-| Technique | Léopold, Lewis, Luther |
-| Engagement Éthique | Loretta, Romane, Lorraine, Léontine |
-| Financement Participatif | Charles, Lorraine |
+| Domaine | Notes |
+|---------|-------|
+| Implantation technique du site | Léopold |
+| Scène, son, lumière | **Léopold + Luther + Lewis** |
+| Montage / démontage | Léopold (en lien avec **Loretta** pour mobilisation bénévoles) |
+| Régie artistes (changements plateau) | Léopold |
+| Talkies-walkies et matériel technique | Léopold |
+| **Sécurité & Accès** *(volet dédié)* | Léopold — dispositif sécurité, contrôle des accès, gestion des flux publics, badges bénévoles/artistes/partenaires, accès backstage et loges, liaison avec la commission de sécurité (en lien avec **Loretta** pour l'équipe bénévoles sécurité) |
+| **Dossier Régis Régis** | Léopold |
+| Toilettes et sanitaires (Trivial Compost) | Léopold |
+
+---
+
+## 🍽 Pôle 4 — LOGISTIQUE *(Chef de pôle : Clotilde)*
+
+| Domaine | Notes |
+|---------|-------|
+| **Restauration / buvette publique** | Clotilde (en lien avec **Loretta** pour bénévoles service) |
+| Partenaires producteurs locaux | Clotilde |
+| Menu public et pricing F&B | Clotilde |
+| Commandes et approvisionnement | Clotilde |
+| Stockage frais / nuit | Clotilde |
+| **Catering bénévoles + artistes** | Clotilde (en lien avec **Loretta**) |
+| Gestion des boissons et de l'eau | Clotilde |
+
+---
+
+## 📋 Pôle 5 — ADMINISTRATIF *(Chef de pôle : Charles)*
+
+| Domaine | Notes |
+|---------|-------|
+| Administration de l'association | **En soutien du Bureau** |
+| **Relations extérieures & institutionnelles** | **Clotilde + Charles** |
+| Demandes de licences spectacle vivant | **Wadih + Léopold** |
+| **Dossiers subventions** (SACEM, Région, DRAC, etc.) | **Wadih + Charles** |
+| **Dossiers mécénat** | **Judith (Présidente) + Charles** |
+| Pass Culture | Charles |
+| **Billetterie / caisse** | Charles (en lien avec **Loretta** pour bénévoles billetterie) |
+| Contrats / accords partenaires | Charles |
+| Paiements / rémunérations / indemnités | **Charles + Wadih** |
+| Formalités pour les dons et reçus fiscaux | **Charles + Judith + Wadih** |
+| Contact propriétaire (La Grange d'Huguenet) | Charles |
+| **Financement participatif (Hello Asso)** | **Lorraine** *(lead)* |
+
+---
+
+## 🙋 Pôle 6 — BÉNÉVOLES *(Chef de pôle : Loretta ALIVAUD)*
+
+**Rôle transversal** : Loretta assure la **gestion, la mobilisation, le planning et la communication avec les équipes bénévoles**, en coordination avec chaque chef·fe de pôle qui exprime ses besoins en renfort humain.
+
+### Équipes bénévoles à constituer et articulation
+
+```
+LORETTA ALIVAUD (Gestion des bénévoles)
+│
+├─ ↔ Accueil artistes / Logistique (Pôle 2 — Lorraine + Luther)
+│     • Déplacements autour de Besançon
+│     • Hébergement artistes
+│
+├─ ↔ Restauration / Buvette — Clotilde
+│     • Équipe service & préparation
+│
+├─ ↔ Catering (bénévoles + artistes) — Clotilde
+│     • Équipe catering backstage
+│
+├─ ↔ Sécurité — Léopold
+│     • Équipe surveillance & prévention
+│
+├─ ↔ Technique (montage / démontage) — Léopold
+│     • Équipe montage
+│     • Équipe démontage
+│
+├─ ↔ Billetterie / caisse — Charles
+│     • Équipe accueil & vente
+│
+├─ ↔ Accueil public / Accessibilité (Pôle 2 — Lorraine + Luther)
+│     • Équipe accueil PMR & safe place
+│
+├─ Équipe volante (disponibles pour toutes les missions)
+│
+└─ Communication avec les bénévoles
+      • Appels à bénévoles, plannings, briefings
+      • Suivi individuel et retours post-festival
+```
+
+### Missions concrètes de la gestion des bénévoles
+- Lancer un **appel à bénévoles** (en lien avec le pôle Communication)
+- Rencontrer et sélectionner les candidats
+- Produire le **planning bénévoles** (général et par équipe)
+- Rédiger les **fiches de mission** par catégorie
+- Signer les **conventions de bénévolat** (Loretta avec contresignature Présidente)
+- Tenir le **registre des bénévoles** (RGPD)
+- Organiser les **briefings** avant le festival et le **debriefing** après
+- Assurer la **logistique bénévole** : pass, T-shirts, repas, pauses
+
+---
+
+## 📊 Récapitulatif synthétique complet
+
+| Pôle | Chef·fe | Périmètre détaillé |
+|------|---------|--------------------|
+| **1. Artistique** | Lewis | Direction artistique, programmation théâtre, ambiance du site, **signalétique et goodies** — Programmation classique (Lorraine), musique actuelle (Luther + Léopold) — **Action culturelle Fabulo** (Lorraine + Luther) |
+| **2. Communication, Animations & Accueil** | Lorraine + Luther | **Communication** : stratégie, visuel (charte, affiches), site, réseaux, presse — **Animations** : photo-booth, marché artisans (*Lewis intervient en appui sur la DA/décoration, loges, signalétique et goodies, depuis le Pôle 1*) — **Accueil artistes** (logistique : déplacements, hébergement) — **Accueil public** (accessibilité, PMR, safe place, Croix-Rouge, Cre-AI) — **Engagement éthique** (Lorraine seule) |
+| **3. Technique** | Léopold | Implantation, scène/son/lumière (Léopold + Luther + Lewis), montage/démontage, régie, **Sécurité & Accès** (volet dédié), dossier Régis Régis, sanitaires |
+| **4. Logistique** | Clotilde | Restauration/buvette publique, catering bénévoles + artistes, approvisionnement, stockage, boissons |
+| **5. Administratif** | Charles | Administration (soutien Bureau), **Relations extérieures & institutionnelles** (Clotilde + Charles), licences (Wadih + Léopold), subventions (Wadih + Charles), mécénat (Judith + Charles), Pass Culture, billetterie, contrats partenaires, paiements (Charles + Wadih), dons et reçus fiscaux (Charles + Judith + Wadih), contact Grange d'Huguenet, **financement participatif Hello Asso** (Lorraine lead) |
+| **6. Bénévoles** | Loretta | Gestion transverse des bénévoles (~70 personnes) : recrutement, planning, fiches de mission, conventions, registre, communication — coordination avec tous les autres pôles |
+
+---
+
+*Cette répartition est validée par le PV du Bureau post-AGE du 19 avril 2026 et fait l'objet d'une **délégation collective** du Bureau auprès des responsables nommés, conformément à l'article 11 des statuts. Périmètre de signature : 500 € / acte, plafond 2 000 € sous double signature Présidente + Trésorier (voir règlement intérieur, titre II).*

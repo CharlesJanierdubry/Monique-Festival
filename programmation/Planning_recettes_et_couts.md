@@ -2,7 +2,7 @@
 
 ## PLANNING
 
-### Samedi 28 Septembre 2026
+### Vendredi 28 août 2026
 
 | Heure | Code | Spectacle | Artiste | Type | Nb Artistes | Durée |
 |-------|------|-----------|---------|------|-------------|-------|
@@ -22,7 +22,7 @@
 | 23:30 | - | Fin services restauration | - | - | - | - |
 | 00:00 | - | Fermeture du festival | - | - | - | - |
 
-### Samedi 28 Septembre 2026 (Journée)
+### Vendredi 28 août 2026 (Journée)
 
 | Heure | Code | Spectacle | Artiste | Type | Nb Artistes | Durée |
 |-------|------|-----------|---------|------|-------------|-------|
@@ -43,7 +43,7 @@
 | 20:30-22:00 | 17 | Concert | Osmosis | Divers | 5 | 1h30 |
 | 22:00 | - | Fin programmation | - | - | - | - |
 
-### Dimanche 29 Septembre 2026
+### Samedi 29 août 2026
 
 | Heure | Code | Spectacle | Artiste | Type | Nb Artistes | Durée |
 |-------|------|-----------|---------|------|-------------|-------|

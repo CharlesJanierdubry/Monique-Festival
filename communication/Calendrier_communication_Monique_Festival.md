@@ -67,14 +67,14 @@
 | Août | Compte à rebours J-30 | Réseaux sociaux | Luther | ⬜ |
 | Fin août | Rappel programme final | Newsletter | Lorraine | ⬜ |
 
-### Phase 4 : Festival (28-30 Septembre 2026)
+### Phase 4 : Festival (28-30 août 2026)
 
 | Date | Action | Canal | Responsable | Statut |
 |------|--------|-------|-------------|--------|
-| 28-30/09 | Live coverage | Instagram, Facebook | Lorraine, Luther | ⬜ |
-| 28-30/09 | Photos/Vidéos du jour | Stories | Vidéaste/Photographe | ⬜ |
-| 28-30/09 | Rappels programmation | Tous canaux | Luther | ⬜ |
-| 28-30/09 | Stories backstage | Instagram | Lorraine | ⬜ |
+| 28-30/08 | Live coverage | Instagram, Facebook | Lorraine, Luther | ⬜ |
+| 28-30/08 | Photos/Vidéos du jour | Stories | Vidéaste/Photographe | ⬜ |
+| 28-30/08 | Rappels programmation | Tous canaux | Luther | ⬜ |
+| 28-30/08 | Stories backstage | Instagram | Lorraine | ⬜ |
 
 ### Phase 5 : Post-festival (Octobre 2026)
 

@@ -164,7 +164,7 @@ Fondée en 2025 par *Hannah Mimoun*, la compagnie *Vous faites un feu ?* a prés
 
 ## Programmation Prévisionnelle
 
-### Vendredi 28/09
+### Vendredi 28/08
 
 | Heure | Spectacle | Artiste |
 |-------|-----------|---------|
@@ -175,7 +175,7 @@ Fondée en 2025 par *Hannah Mimoun*, la compagnie *Vous faites un feu ?* a prés
 | 20h15 | Concert | Luther et Loretta |
 | 21h30 | Concert | Wet Enough!? |
 
-### Samedi 29/09
+### Samedi 29/08
 
 | Heure | Spectacle | Artiste |
 |-------|-----------|---------|
@@ -188,7 +188,7 @@ Fondée en 2025 par *Hannah Mimoun*, la compagnie *Vous faites un feu ?* a prés
 | 20h30 | Concert | Mathis Akengin |
 | 21h30 | Concert | Osmosis |
 
-### Dimanche 30/09
+### Dimanche 30/08
 
 | Heure | Spectacle | Artiste |
 |-------|-----------|---------|

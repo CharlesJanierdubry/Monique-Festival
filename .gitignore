@@ -1,0 +1,42 @@
+# === Secrets et credentials (ne JAMAIS commiter) ===
+**/.env
+**/.env.local
+**/private.key
+**/*.pem
+**/credentials.json
+**/token.json
+**/client_secret*.json
+
+# === Configuration locale Claude Code (contient des secrets OAuth Google) ===
+.claude/
+
+# === DocuSign local ===
+gouvernance/docusign/docx_signes/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.Python
+
+# === Systèmes ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*~
+
+# === Office temporaires ===
+~$*
+*.tmp
+
+# === Fichiers Google Drive générés ===
+budget/gdrive_exports/

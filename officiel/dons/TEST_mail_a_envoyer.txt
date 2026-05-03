@@ -1,0 +1,59 @@
+================================================================
+MAIL TEST — PRÊT À COPIER-COLLER DANS GMAIL
+================================================================
+
+DESTINATAIRE  : charles@janier-dubry.fr
+DE            : charles@janier-dubry.fr (ou info@monique-festival.fr)
+PIÈCE JOINTE  : officiel\dons\recus_emis\TEST_RF_Charles_Janier-Dubry.docx
+
+================================================================
+OBJET
+================================================================
+[TEST] Monique Festival — Exemple de reçu fiscal
+
+================================================================
+CORPS DU MAIL
+================================================================
+Bonjour Charles,
+
+Ceci est un test d'envoi de reçu fiscal pour valider le modèle
+que Monique Festival utilisera pour les 14 donateurs du
+crowdfunding du 20-23 avril 2026.
+
+Tu trouveras en pièce jointe un exemple de reçu fiscal
+(format Cerfa n° 11580*04) pour un don fictif de 50 euros.
+
+Points à vérifier dans le document :
+  - Raison sociale : MONIQUE FESTIVAL (anciennement JD Production)
+  - Objet social : article 2 des statuts révisés du 19/04/2026
+  - N° d'ordre : TEST-2026-04-24-0001
+  - Article 200 CGI (particuliers) avec réduction 66 %
+  - Mentions obligatoires Cerfa présentes
+  - Emplacement signature à la fin
+
+Ce reçu ne doit PAS être utilisé pour une déclaration fiscale
+(mention "RECU TEST" en bas du document).
+
+Si le modèle te convient, il sera dupliqué pour les 14 donateurs
+réels une fois le récépissé préfectoral reçu (début mai 2026) et
+les paramètres Hello Asso mis à jour.
+
+À toi de valider ou de demander des ajustements.
+
+Judith Laithier
+Présidente de l'association Monique Festival
+
+================================================================
+INSTRUCTIONS GMAIL
+================================================================
+
+1. Gmail > Nouveau mail
+2. À : charles@janier-dubry.fr
+3. Objet : coller la ligne OBJET ci-dessus
+4. Corps : coller le bloc CORPS DU MAIL ci-dessus
+5. Joindre le fichier (trombone) :
+   officiel/dons/recus_emis/TEST_RF_Charles_Janier-Dubry.docx
+6. Envoyer
+
+Vérification après envoi : ouvrir le mail reçu, télécharger la PJ,
+l'ouvrir dans Word et parcourir. Valider la structure et le contenu.

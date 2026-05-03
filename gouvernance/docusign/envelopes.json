@@ -1,0 +1,153 @@
+{
+  "test_charles": {
+    "name": "TEST — Envoi à Charles uniquement",
+    "subject": "TEST DocuSign — Monique Festival",
+    "message": "Test d'envoi DocuSign avec ancres positionnées. Merci de signer pour valider le placement des zones de signature avant l'envoi officiel.",
+    "documents": [
+      "gouvernance/docx/Statuts_Monique_Festival.docx"
+    ],
+    "signers": [
+      {
+        "name": "Charles Janier-Dubry",
+        "email": "charles@janier-dubry.fr",
+        "role": "Test",
+        "order": 1,
+        "anchors": ["__sign_statuts_pres__", "__sign_statuts_tres__"]
+      }
+    ]
+  },
+
+  "age_19avril_1a": {
+    "name": "AGE du 19 avril 2026 (1/2) — Bureau + Charles + Clotilde",
+    "subject": "Signature (1/2) — AGE du 19 avril 2026 — Monique Festival",
+    "message": "Bonjour,\n\nMerci de bien vouloir signer les documents de l'Assemblée Générale Extraordinaire du 19 avril 2026 (envoi 1/2) :\n- Statuts révisés\n- Procès-verbal de l'AGE\n- Feuille de présence\n\nL'envoi 2/2 sera adressé en parallèle aux autres membres fondateurs pour l'émargement de la feuille de présence.\n\nVotre signature vaut approbation des résolutions adoptées à l'unanimité.\n\nBien à vous,\nLa Présidente",
+    "documents": [
+      "gouvernance/docx/Statuts_Monique_Festival.docx",
+      "gouvernance/docx/PV_AGE_adoption_statuts.docx",
+      "gouvernance/docx/Feuille_presence_AGE.docx"
+    ],
+    "signers": [
+      {
+        "name": "Judith Laithier",
+        "email": "judithlaithier@gmail.com",
+        "role": "Présidente",
+        "order": 1,
+        "anchors": ["__sign_statuts_pres__", "__sign_pvage_pres__", "__sign_fp_judith__", "__sign_fp_seance_pres__"]
+      },
+      {
+        "name": "Wadih Cormier",
+        "email": "wadih.cormier007@gmail.com",
+        "role": "Trésorier",
+        "order": 1,
+        "anchors": ["__sign_statuts_tres__", "__sign_pvage_scr__", "__sign_fp_wadih__", "__sign_fp_seance_scr__"]
+      },
+      {
+        "name": "Charles Janier-Dubry",
+        "email": "charles@janier-dubry.fr",
+        "role": "Secrétaire de séance",
+        "order": 2,
+        "anchors": ["__sign_pvage_sec__", "__sign_fp_charles__", "__sign_fp_seance_sec__"]
+      },
+      {
+        "name": "Clotilde Janier-Dubry",
+        "email": "clotilde@janier-dubry.fr",
+        "role": "Membre fondatrice",
+        "order": 2,
+        "anchors": ["__sign_fp_clotilde__"]
+      }
+    ]
+  },
+
+  "age_19avril_1b": {
+    "name": "AGE du 19 avril 2026 (2/2) — Léopold, Luther, Lewis, Lorraine",
+    "subject": "Signature (2/2) — AGE du 19 avril 2026 — Feuille de présence",
+    "message": "Bonjour,\n\nMerci d'émarger la feuille de présence de l'Assemblée Générale Extraordinaire du 19 avril 2026 de l'association JD Production (future Monique Festival).\n\nLes statuts révisés et le procès-verbal de l'AGE vous sont joints pour information ; ils sont signés par les membres du bureau dans un envoi parallèle.\n\nVotre signature sur la feuille de présence atteste de votre présence à l'AGE et de votre acceptation des résolutions adoptées à l'unanimité.\n\nBien à vous,\nLa Présidente",
+    "documents": [
+      "gouvernance/docx/Statuts_Monique_Festival.docx",
+      "gouvernance/docx/PV_AGE_adoption_statuts.docx",
+      "gouvernance/docx/Feuille_presence_AGE.docx"
+    ],
+    "signers": [
+      {
+        "name": "Léopold Janier-Dubry",
+        "email": "leopold.janier.dubry@gmail.com",
+        "role": "Membre fondateur",
+        "order": 1,
+        "anchors": ["__sign_fp_leopold__"]
+      },
+      {
+        "name": "Luther Janier-Dubry",
+        "email": "lututersan12@gmail.com",
+        "role": "Membre fondateur",
+        "order": 1,
+        "anchors": ["__sign_fp_luther__"]
+      },
+      {
+        "name": "Lewis Janier-Dubry",
+        "email": "lewis.janierdubry@gmail.com",
+        "role": "Membre fondateur",
+        "order": 1,
+        "anchors": ["__sign_fp_lewis__"]
+      },
+      {
+        "name": "Lorraine Janier-Dubry",
+        "email": "lorrainejanierdubry@gmail.com",
+        "role": "Membre fondatrice",
+        "order": 1,
+        "anchors": ["__sign_fp_lorraine__"]
+      }
+    ]
+  },
+
+  "bureau_post_age": {
+    "name": "Réunion Bureau post-AGE 19 avril 2026",
+    "subject": "Signature — PV Bureau du 19 avril 2026 + Règlement intérieur",
+    "message": "Bonjour,\n\nMerci de signer le procès-verbal du Bureau du 19 avril 2026 (adoption de la grille des cachets, du règlement intérieur et des délégations aux responsables de pôle) ainsi que le règlement intérieur annexé.\n\nBien à vous,\nLa Présidente",
+    "documents": [
+      "gouvernance/docx/PV_Bureau_post_AGE.docx",
+      "gouvernance/docx/Reglement_Interieur.docx"
+    ],
+    "signers": [
+      {
+        "name": "Judith Laithier",
+        "email": "judithlaithier@gmail.com",
+        "role": "Présidente",
+        "order": 1,
+        "anchors": ["__sign_bur_pres__", "__sign_ri_pres__"]
+      },
+      {
+        "name": "Wadih Cormier",
+        "email": "wadih.cormier007@gmail.com",
+        "role": "Trésorier",
+        "order": 1,
+        "anchors": ["__sign_bur_tres__", "__sign_ri_tres__"]
+      }
+    ]
+  },
+
+  "mecenat_template": {
+    "name": "Convention de mécénat — modèle à adapter",
+    "subject": "Convention de mécénat — Monique Festival 2026",
+    "message": "Madame, Monsieur,\n\nVeuillez trouver ci-joint la convention de mécénat pour l'édition 2026 du Monique Festival. Merci de bien vouloir la signer électroniquement.\n\nNous vous remercions vivement pour votre soutien.\n\nBien cordialement,\nLa Présidente — Association Monique Festival",
+    "documents": [
+      "mecenat/docx/Convention_mecenat.docx"
+    ],
+    "signers": [
+      { "name": "{{MECENE_NOM}}",  "email": "{{MECENE_EMAIL}}",   "role": "Mécène",     "order": 1, "anchors": ["__sign_mecene__"] },
+      { "name": "Judith Laithier", "email": "judithlaithier@gmail.com", "role": "Présidente", "order": 2, "anchors": ["__sign_pres_mecenat__"] }
+    ]
+  },
+
+  "adhesion_template": {
+    "name": "Bulletin d'adhésion — modèle",
+    "subject": "Bienvenue dans l'association Monique Festival — bulletin d'adhésion",
+    "message": "Bonjour,\n\nMerci pour votre intérêt pour l'association Monique Festival. Veuillez signer électroniquement votre bulletin d'adhésion ci-joint.\n\nBien à vous,\nLa Présidente",
+    "documents": [
+      "gouvernance/docx/Modele_bulletin_adhesion.docx"
+    ],
+    "signers": [
+      { "name": "{{ADHERENT_NOM}}", "email": "{{ADHERENT_EMAIL}}", "role": "Adhérent·e", "order": 1, "anchors": ["__sign_adherent__"] },
+      { "name": "Judith Laithier",  "email": "judithlaithier@gmail.com", "role": "Présidente", "order": 2, "anchors": ["__sign_pres_adhesion__"] }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 
 **Festival émergent et pluridisciplinaire - Besançon**
 
-📅 **28-30 Septembre 2026** | 📍 La Grange d'Huguenet | 📧 info@monique-festival.fr
+📅 **28-30 août 2026** | 📍 La Grange d'Huguenet | 📧 info@monique-festival.fr
 
 ---
 

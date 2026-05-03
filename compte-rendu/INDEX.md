@@ -18,7 +18,7 @@
 ## 📊 Résumé des décisions clés
 
 ### Dates du festival
-- **28-30 septembre 2026** (initialement prévu fin août)
+- **28-30 août 2026** (initialement prévu fin août)
 
 ### Lieu
 - **La Grange d'Huguenet** - 1500€ le week-end

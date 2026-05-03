@@ -1,0 +1,64 @@
+Action,Source,Destination,ID,Statut
+MKDIR,(racine),Administratif,1CDUX2_T6etLUbNeKcxyyXJ_zK4LP1cfU,OK
+STRUCT,Administratif/,30 sous-dossiers,1CDUX2_T6etLUbNeKcxyyXJ_zK4LP1cfU,OK
+MOVE,QUESTIONNAIRE PAYS  2025.pdf,1_Admin_legale/Questionnaires_PAYS,1aX0gVATYUJj_e6FJVFsTWMZBb7x405Tk,OK
+MOVE,QUESTIONNAIRE PAYS  2025_.docx,1_Admin_legale/Questionnaires_PAYS,1MpMwB8BrRtHrxGtDvllHoBVAEWR_xSzc,OK
+MOVE,ATTESTATION+DE+DECLARATION+DE+CA+PREVISIONNEL JD productions.docx,2_Finances/Budgets/Previsionnels,1WGdixyr1UwXbjtFNF2Dk6g6qUlWuwWSU,OK
+MOVE,ATTESTATION SUR L'HONNEUR DE DECLARATION DE BUDGET PREVISIONNEL.pdf,2_Finances/Budgets/Previsionnels,1bNC37774nGLVmhCy5CtFuMkZBGMil0EG,OK
+WARN,JD.PROD_Procès Verbal - Ouverture compte bancaire.doc,(non mappe),1F9hRskjqocIRaF8iR6BgizZlJuGIfpyP,MAPPING MANQUANT
+WARN,JD.PROD_Procès Verbal - Ouverture compte bancaire.pdf,(non mappe),192FyXKMaPC1GCXYNlQjcR-rLBkxrR4kw,MAPPING MANQUANT
+MOVE,ATTESTATION+DE+DECLARATION+DE+CA+PREVISIONNEL.docx,2_Finances/Budgets/Previsionnels,1BmbMJ8CtaundllGMi3fy3P3WO1n1E9p_,OK
+MOVE,F-ASSO-PV.doc,9_Archives_obsoletes/JD_Production_2025,17JjgG5Mf3YbSQdgpuvieYsBw29NrZBpE,OK
+MOVE,Journal officiel,1_Admin_legale/Journal_Officiel,157mgQ5bkGq5WUgkwjr9u1bIgv-crf3Oj,OK
+MOVE,Monique-Insee.pdf,1_Admin_legale/INSEE_SIRENE,1IBqktFThrO7GwwiEvxsy_a7R-Nkt3cJA,OK
+MOVE,Cerfa.pdf,1_Admin_legale/Cerfas_references,1HJbli2yYaeqHnTimLgb_c6K9V2seN-3q,OK
+RENAME,Recepisse_CR (2).pdf,1_Admin_legale/Prefecture/2025_creation/Recepisse_creation_JD_Production_2025.pdf,1u3UVzx1XTtp9xE46bnMdfRS5-1mHm2RT,OK
+WARN,JD.PROD_Procès Verbal de l'assemblée constitutive.docx,(non mappe),1y9dcRur5lH__WLvyFUDM_rAFop8SQBtB,MAPPING MANQUANT
+MOVE,LDC.pdf,1_Admin_legale/Cerfas_references,1HNMAAebKDTXKamyT7IJQzSVBCNdHa_pQ,OK
+TRASH,FRM.pdf,(corbeille),1qjh4jMWeJocrkba9XvGlNpntUfTu9x-_,OK
+MOVE,Mandat de décharge de déclaration  - signé.pdf,1_Admin_legale/Mandats,1c4ROUtdLheX8fz5igv2kXZcb1fPjzkN8,OK
+MOVE,Mandat de décharge de déclaration -signé.docx,1_Admin_legale/Mandats,1H1cGlNb1zUrnGykcFzoGapy_Jp8_SCJT,OK
+MOVE,Mandat de décharge de déclaration,1_Admin_legale/Mandats,1ZszTSOAOMDruKRG4J_qlTvfBlK1Byq5V9gbQjqoWyco,OK
+WARN,JD.PROD_Procès_Verbal_de_l'assemblée_constitutive - Signé.pdf,(non mappe),1IgKKqY3ri7XLRaTp_RjemwXdCIiO-8-L,MAPPING MANQUANT
+MOVE,STATUTS_JD_PRODUCTION - Signé.pdf,9_Archives_obsoletes/JD_Production_2025,10CPV20MOAAumUFO22BqUcw_LF0kIkBVo,OK
+WARN,JD.PROD_Procès Verbal de l'assemblée constitutive.pdf,(non mappe),1QYp07i-WLOfaZUAqiVdK0ZGTWmCCk3MN,MAPPING MANQUANT
+MOVE,STATUTS JD PRODUCTION.pdf,9_Archives_obsoletes/JD_Production_2025,1ttE-JXWSl7MQyn-KqzO5tD05uk6P3ynG,OK
+MOVE,STATUTS JD PRODUCTION,9_Archives_obsoletes/JD_Production_2025,1_jnCdullH-OEQjxrMletXHpC856UfhY68-kf4FjscKw,OK
+MOVE,cerfa-demande-de-licence-dentrepreneur-de-spectacles-vivants-pour-la-duree-des-representations.pdf,1_Admin_legale/Licences_spectacle_vivant,1L6MsIvIprUArob995RockhfG6-mBs5JD,OK
+MOVE,Idées de nom,9_Archives_obsoletes/JD_Production_2025,1-hhyo-cmVLjvStSyoL5HkQBcJE5T2DSMPKW2PJX55JY,OK
+MOVE,Comptabilité/Acompte Grange Huguenet.png,2_Finances/Pieces_comptables,1SEX-W1OC2gweNJ-PWvhYUz-vw78l6KOe,OK
+WARN,Adm2026/MD-Recapitulatif.pdf,(non mappe),1keyxTLuPYqGmdnaBNRkzfC2481klGuDz,SKIP
+RENAME,Adm2026/Recepisse_MD.pdf,1_Admin_legale/Prefecture/2026-04_modif_denomination/Recepisse_modification_24-04-2026.pdf,1khTmfgk7kORqh3WXE3ci-2Zmm8G8ZDWQ,OK
+MOVE,Adm2026/Reçus fiscaux — Dons crowdfunding 20-23 avril 2026/,2_Finances/Dons_et_recus_fiscaux/2026,1c6zImZSeTCRfEzROiJTpzVO7_2BZeWdH,OK (dossier entier)
+MOVE,Decl-Pref/Mandat_depot_prefecture.docx,1_Admin_legale/Prefecture/2026-04_modif_denomination,1_kknlSlCTSWgnLOb74yQBKTP6XiM_uj7,OK
+MOVE,Decl-Pref/Preuve de depot FRM.pdf,1_Admin_legale/Prefecture/2026-04_modif_denomination,1mBqv4SrLRb6z5HR_jj7JQkdNsZ9OasZO,OK
+MOVE,Decl-Pref/Mandat_depot_prefecture-Signé.pdf,1_Admin_legale/Prefecture/2026-04_modif_denomination,197nvO173mNFf1w4cbXtyI2DvhHFmDLlE,OK
+MOVE,Statuts-AG/Note_explicative_changements_statuts.docx,0_Gouvernance/AG_et_Bureau/2026-04-19_AGE_revision,1SAbHY78E9OC4erOjv4GFEwHsYsi7OYff,OK
+MOVE,Statuts-AG/Modele_bulletin_adhesion.docx,0_Gouvernance/Modeles,1cpK1nGYNNbPj4H7Mudpq84mHLU8cwtlD,OK
+MOVE,Statuts-AG/Detail_taches_par_pole.docx,0_Gouvernance/Modeles,16nRpAPbliijAyoOFECC88fJ2GiqouSHV,OK
+MOVE,Statuts-AG/Convocation_AGE.docx,0_Gouvernance/AG_et_Bureau/2026-04-19_AGE_revision,1v6qTzaxKVoz7gol2eZZePt2Q29qw9RA6,OK
+MOVE,Statuts-AG/Statuts_Monique_Festival_19-04-2026_Signé.pdf,0_Gouvernance/Statuts/2026_Monique_Festival_revises,1uZolOAvwY_CYPStaJyj_JzcjRtb6AjSc,OK
+MOVE,Statuts-AG/Reglement_Interieur 19-04-2026_ Signé.pdf,0_Gouvernance/Reglement_interieur,1bfyi_0DIDm1pkZk4DAcP0w4mxy9y6oOb,OK
+MOVE,Statuts-AG/PV_Bureau_post_AGE19-04-2026_ Signé.pdf,0_Gouvernance/AG_et_Bureau/2026-04-19_AGE_revision,1a0LVBH0_MwDR2HXGl55hoQBcRKFqTaCU,OK
+MOVE,Statuts-AG/PV_AGE_adoption_statuts 19-04-2026 - Signé.pdf,0_Gouvernance/AG_et_Bureau/2026-04-19_AGE_revision,1x9dG0vkADAFFLOVxMXqdrStogzD-I2oT,OK
+MOVE,Statuts-AG/Feuille de Présence 19-04-2026 - Signé.pdf,0_Gouvernance/AG_et_Bureau/2026-04-19_AGE_revision,1yJscAHchJEIk0nThH0mBXgfAi7JwADAu,OK
+MOVE,archive/Statuts_Monique_Festival-signé.docx,9_Archives_obsoletes/2026_brouillons,1O7V5fTHB6bkWv6pDU2KV0MPCAvHi8-YU,OK
+MOVE,archive/Reglement_Interieur_Signé.docx,9_Archives_obsoletes/2026_brouillons,10p-WjResM45jOUN_iR6b3p77Y24Qd1Y3,OK
+MOVE,archive/PV_AGE_adoption_statuts-signé.docx,9_Archives_obsoletes/2026_brouillons,1ueMMT99FYYD6HLIfDZ1RXqabUKJfFjlH,OK
+MOVE,archive/Feuille_presence_AGE_signé.docx,9_Archives_obsoletes/2026_brouillons,1Hj0v1BMpT5MwsWm2rzrXCSx_9qBMo0oU,OK
+MOVE,Adm2026/Obligations administratives festival.docx,1_Admin_legale/Obligations,1vGAt-zsHlbL7d30HjKG8lqHtHdHyA3JB,OK
+WARN,Adm2026/Charte éthique.pdf,(non mappe),1PwyBHysfh-wwmxrILoNhZbeARr4sIawB,SKIP
+MOVE,Licences/JD_Production_calendrier_représentations_prévisionnel.xlsx,1_Admin_legale/Licences_spectacle_vivant,1-YqOy4YpyFW28M-o4zmAjlSLZvzToQ4T,OK
+MOVE,Licences/attestation-depot_dossier-30080339.pdf,1_Admin_legale/Licences_spectacle_vivant,1ZB82x-B6sjAC0G2gWJACe_mTHpztHu12,OK
+MOVE,Licences/attestation-depot_dossier-30060507.pdf,1_Admin_legale/Licences_spectacle_vivant,1tF6GKy8zT9zEGb-xjx848NhvQb0rOGq1,OK
+KEEP,Administration/Administration,(5 elem restants),1WX7a5X-XbF59mwnRJDOvgHWGT5J1V-l-,non-vide
+KEEP,Administration,(2 elem restants),13DluZWg4v6ZVBZuUJ1YITPa6n0eTT75_,non-vide
+RM_DIR,Decl-Pref/Partenaires,(corbeille),17OYe3l6IUhHJ7mhpEsWMPj8NeGcQOacN,OK (vide)
+RM_DIR,Decl-Pref/Rescrit_fiscal,(corbeille),1Jf7PonhNtz4hRut9LgOkufBQkXX4HcXO,OK (vide)
+RM_DIR,Decl-Pref/Prefecture,(corbeille),1QDW859kFUmaBLl-VyXi3le-9xtSu9ACb,OK (vide)
+RM_DIR,Declaration Prefecture 04-2026,(corbeille),1PSDsdGvFRlLcba0vuHfuLvb31aP3QpYx,OK (vide)
+RM_DIR,Statuts-AG/archive,(corbeille),13akJlmlv62jAkU5K8lPXaCF1YVKd5Gxw,OK (vide)
+RM_DIR,Statuts - AG,(corbeille),1-hJJ53zzJwvMoCLLv10a4tW5WZGN1sxY,OK (vide)
+RM_DIR,Adm2026/Licences d'entrepreneurs de spectacle,...,1_qY5KVbfjkkCALR4i7piyAoCW0fiUexb,"ERR: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1_qY5KVbfjkkCALR4i7piyAoCW0fiUexb?supportsAllDrives=true&alt=json returned ""The user does not have sufficient permissions for this file."". Details: ""[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]"">"
+KEEP,Adm2026/Administratif,(3 elem restants),1BiiW8kYWvOkKhUVOrReBFhWPUQuA2msp,non-vide
+RM_DIR,Comptabilité,(corbeille),14OZPqhqmoLw3QqiimdmflEgW6xq-Nh6b,OK (vide)
