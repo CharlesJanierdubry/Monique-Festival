@@ -74,8 +74,7 @@ DEPENSES_JUIN = [
     ("F&B", "Commande écocups Atomic 1000 unités", 600, "Délai livraison ~3 semaines"),
     ("F&B", "Commande jetons flousy ~5000 unités", 400, "Stock {1×2000, 2×1000, 5×1500, 10×500}"),
     ("F&B", "Acompte 30% Machine pop-corn (location)", 80, "Sur 252 € total"),
-    # Artistes
-    ("Artistes", "Acompte 30% cachets artistes locaux/régionaux (signature contrats)", 2100, "Sur ~7000 € locaux"),
+    # Note : tous les cachets artistes payés POST-festival (décision Charles 03/05/2026)
 ]
 
 DEPENSES_JUILLET = [
@@ -90,9 +89,8 @@ DEPENSES_JUILLET = [
     ("Artistes", "Répétitions Fabulo (4 art × 2 jours × 100 €)", 800, "Préparation collectif Fabulo"),
     ("Artistes", "Répétitions Atelier écriture — Sylvain (2j × 100 €)", 200, ""),
     ("Artistes", "Répétitions Atelier DJ — Jeff (2j × 100 €)", 200, ""),
-    # Artistes - acomptes étrangers
+    # Artistes - défraiement étrangers (cachets payés post-festival)
     ("Artistes", "Avance défraiement artistes étrangers (50% billets early)", 600, "Pour booking train/avion avant 15/06 deadline"),
-    ("Artistes", "Acompte 20% supplémentaire cachets nationaux", 1400, "Confirmation contrats"),
     # F&B - matériel non périssable
     ("F&B", "Vaisselle bio jetable (gobelets, assiettes, serviettes)", 319, "Stock pour J-2"),
     ("F&B", "HACCP (tablier, gants, sondes T°) + caisse + ustensiles préparation", 540, "Préparation stand"),
@@ -134,8 +132,7 @@ DEPENSES_AOUT_AVANT_FESTIVAL = [
     ("F&B", "Frites snack (huile friture + sel + barquettes kraft + sticks sauces)", 88, "Commande J-7 (pdt comptées séparément)"),
     ("F&B", "Glaces ERHARD (43 bacs 2,5L)", 101, "Commande J-3, livraison J-1"),
     ("F&B", "Cornets gaufrette comestibles (560 unités) + back-up", 70, "Commande J-7"),
-    # Artistes - solde
-    ("Artistes", "Solde 50% cachets artistes (à régler post-prestation J+7)", 7000, "Prévoir en trésorerie même si paiement J+7"),
+    # Artistes - défraiement étrangers solde uniquement (cachets payés post-festival)
     ("Artistes", "Défraiement étrangers solde (sur réception justificatifs)", 1200, "Solde après réception tickets, payable J ou J+7"),
     # Frais divers
     ("Admin", "Frais administratifs divers (encres, fournitures bureau)", 100, "Préparation festival"),
@@ -144,6 +141,8 @@ DEPENSES_AOUT_AVANT_FESTIVAL = [
 
 # Dépenses post-festival (juste pour référence — non comptabilisées dans pré-festival)
 DEPENSES_POST_FESTIVAL = [
+    ("Artistes", "Cachets artistes (TOUS payés post-festival, J+7)", 15700, "Septembre 2026 — décision Charles 03/05/2026"),
+    ("Artistes", "Défraiement artistes (étrangers - solde, locaux/régionaux)", 4800, "Septembre 2026 — sur justificatifs"),
     ("Admin", "SACEM Billetterie 8.8% (déclaration post-event)", 1993, "Septembre 2026 — sur recettes billetterie réelles"),
 ]
 
