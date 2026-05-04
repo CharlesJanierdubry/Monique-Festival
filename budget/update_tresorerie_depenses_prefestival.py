@@ -74,6 +74,8 @@ DEPENSES_JUIN = [
     ("F&B", "Commande écocups Atomic 1000 unités", 600, "Délai livraison ~3 semaines"),
     ("F&B", "Commande jetons flousy ~5000 unités", 400, "Stock {1×2000, 2×1000, 5×1500, 10×500}"),
     ("F&B", "Acompte 30% Machine pop-corn (location)", 80, "Sur 252 € total"),
+    # Régis Régis
+    ("Logistique", "Acompte 50% Régis Régis (devis DE2026002)", 2640, "Sur 5 280 € TTC - dossier sécu + régie + régisseur 6j"),
     # Note : tous les cachets artistes payés POST-festival (décision Charles 03/05/2026)
 ]
 
@@ -134,6 +136,8 @@ DEPENSES_AOUT_AVANT_FESTIVAL = [
     ("F&B", "Cornets gaufrette comestibles (560 unités) + back-up", 70, "Commande J-7"),
     # Artistes - défraiement étrangers solde uniquement (cachets payés post-festival)
     ("Artistes", "Défraiement étrangers solde (sur réception justificatifs)", 1200, "Solde après réception tickets, payable J ou J+7"),
+    # Régis Régis solde
+    ("Logistique", "Solde 50% Régis Régis (devis DE2026002)", 2640, "À l'issue de la prestation - démontage 31/08"),
     # Frais divers
     ("Admin", "Frais administratifs divers (encres, fournitures bureau)", 100, "Préparation festival"),
     ("Admin", "Imprévus de dernière minute (provision)", 500, "Aléas"),
